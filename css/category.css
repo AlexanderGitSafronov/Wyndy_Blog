@@ -1,0 +1,35 @@
+.article__block {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.main__popular {
+    width: 100%;
+    justify-content: center;
+}
+.article__block p {
+    margin-bottom: 0;
+}
+.article__block p:nth-child(2){
+    font-weight: 700;
+}
+.article__block p:nth-child(4){
+    color: #0062c7;
+    font-weight: 700;
+}
+.articles__block_container {
+    justify-content: space-between;
+    column-gap: 25px;
+}
+.articles__block_container a {
+width: 32%;
+}
+.main__right_block {
+    width: 100%;
+}
+.main__button {
+    margin-bottom: 80px;
+}
+.articles__block h3 {
+    margin-top: 40px;
+}
